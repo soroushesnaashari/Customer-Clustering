@@ -1,66 +1,66 @@
-# Overview
-This project applies unsupervised machine learning techniques to a customer dataset to identify meaningful clusters. The goal is to segment customers based on their features, using popular clustering algorithms such as K-Means, DBSCAN, and Gaussian Mixture Models (GMM). The clustering results are evaluated and visualized to extract actionable insights.
+### Overview
+This project applies **Unsupervised Machine Learning** techniques to a customer dataset to identify meaningful clusters. The goal is to segment customers based on their features, using popular clustering algorithms such as **K-Means**, **DBSCAN** and **Gaussian Mixture Models (GMM)**. The clustering results are evaluated and visualized to extract actionable insights.
 
-[![DATA](https://unsplash.com/photos/turned-on-monitoring-screen-qwtCeJ5cLYs)](https://github.com/soroushesnaashari/Customer-Clustering)
+<br>
 
-# Process Workflow
+### Process Workflow
 The project follows a structured approach for clustering:
 
-## 1. Data Cleaning:
-- Imported the dataset and handled missing values using dropna().
+##### 1. Data Cleaning:
+Imported the dataset and handled missing values using dropna().
 
-## 2. Data Visualization:
-- Explored the dataset through detailed visualizations (scatter plots, pair plots, bar charts, etc.) to understand feature relationships.
+##### 2. Data Visualization:
+Explored the dataset through detailed visualizations (scatter plots, pair plots, bar charts, etc.) to understand feature relationships.
 
-## 3. Data Scaling:
-- Applied MinMaxScaler to normalize the dataset to the range [0, 1] for better performance with clustering algorithms.
+##### 3. Data Scaling:
+Applied MinMaxScaler to normalize the dataset to the range [0, 1] for better performance with clustering algorithms.
 
-## 4. Clustering Algorithms:
-- Performed clustering using the following methods:
-  - K-Means Clustering: Identified optimal clusters using Silhouette Score Analysis.
-  - DBSCAN: Explored density-based clustering with parameter tuning (eps and min_samples).
-  - Gaussian Mixture Models (GMM): Modeled clusters using probability distributions.
+##### 4. Clustering Algorithms:
+Performed clustering using the following methods:
 
-## 5. Evaluation:
-- Used Silhouette Score to evaluate the clustering performance for all algorithms.
+- K-Means Clustering: Identified optimal clusters using Silhouette Score Analysis.
+- DBSCAN: Explored density-based clustering with parameter tuning (eps and min_samples).
+- Gaussian Mixture Models (GMM): Modeled clusters using probability distributions.
 
-## 6. Parameter Optimization:
-- Conducted parameter tuning for K-Means and DBSCAN to find the optimal number of clusters and density thresholds.
+##### 5. Evaluation:
+Used Silhouette Score to evaluate the clustering performance for all algorithms.
 
-## 7. Visualization:
-- Created various plots to interpret and compare clustering results:
-  - Scatter plots with PCA reduction.
-  - Heatmaps of cluster feature averages.
-  - Pairplots of feature relationships.
+##### 6. Parameter Optimization:
+Conducted parameter tuning for K-Means and DBSCAN to find the optimal number of clusters and density thresholds.
 
----
+##### 7. Visualization:
+Created various plots to interpret and compare clustering results:
 
-# Results
+- Scatter plots with PCA reduction.
+- Heatmaps of cluster feature averages.
+- Pairplots of feature relationships.
+
+<br>
+
+### Results
 After evaluation and parameter tuning:
 
-- K-Means provided the best clustering results with:
+- **K-Means** provided the best clustering results with:
   - Optimal Number of Clusters: 2
   - Silhouette Score: 0.3906
-- DBSCAN struggled with the dataset, forming a single cluster and noise.
-- GMM gave reasonable results but was outperformed by K-Means in this case.
+- **DBSCAN** struggled with the dataset, forming a single cluster and noise.
+- **GMM** gave reasonable results but was outperformed by K-Means in this case.
 
----
+<br>
 
-# Repository Contents
+### Repository Contents
 
-- data/: Contains the [original dataset](https://www.kaggle.com/datasets/mahnazarjmand/customer-segmentation) and you can see the cleaned dataset in notebook.
+- **Data:** Contains the [Original Dataset](https://www.kaggle.com/datasets/mahnazarjmand/customer-segmentation) and you can see the cleaned dataset in notebook.
 
-- notebooks/:
-Jupyter notebook detailing the entire process, including data cleaning, visualization, clustering, and evaluation.
+- **notebook:** Jupyter notebook detailing the entire process, including data cleaning, visualization, clustering, and evaluation.
 
-- README.md:
-Project documentation.
+- **README.md:** Project documentation.
 
----
+<br>
 
-# How to Contribute
+### How to Contribute
 Contributions are welcome! If you'd like to improve the project or add new features:
 
-##### 1. Fork the repository.
-##### 2. Create a new branch.
-##### 3. Make your changes and submit a pull request.
+**1. Fork the repository.**
+**2. Create a new branch.**
+**3. Make your changes and submit a pull request.**
