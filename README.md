@@ -6,29 +6,29 @@ This project applies **Unsupervised Machine Learning** techniques to a customer 
 ### Process Workflow
 The project follows a structured approach for clustering:
 
-##### 1. Data Cleaning:
+1. **Data Cleaning:**
 Imported the dataset and handled missing values using dropna().
 
-##### 2. Data Visualization:
+2. **Data Visualization:**
 Explored the dataset through detailed visualizations (scatter plots, pair plots, bar charts, etc.) to understand feature relationships.
 
-##### 3. Data Scaling:
+3. **Data Scaling:**
 Applied MinMaxScaler to normalize the dataset to the range [0, 1] for better performance with clustering algorithms.
 
-##### 4. Clustering Algorithms:
+4. **Clustering Algorithms:**
 Performed clustering using the following methods:
 
 - K-Means Clustering: Identified optimal clusters using Silhouette Score Analysis.
 - DBSCAN: Explored density-based clustering with parameter tuning (eps and min_samples).
 - Gaussian Mixture Models (GMM): Modeled clusters using probability distributions.
 
-##### 5. Evaluation:
+5. **Evaluation:**
 Used Silhouette Score to evaluate the clustering performance for all algorithms.
 
-##### 6. Parameter Optimization:
+6. **Parameter Optimization:**
 Conducted parameter tuning for K-Means and DBSCAN to find the optimal number of clusters and density thresholds.
 
-##### 7. Visualization:
+7. **Visualization:**
 Created various plots to interpret and compare clustering results:
 
 - Scatter plots with PCA reduction.
@@ -61,6 +61,6 @@ After evaluation and parameter tuning:
 ### How to Contribute
 Contributions are welcome! If you'd like to improve the project or add new features:
 
-**1. Fork the repository.**
-**2. Create a new branch.**
-**3. Make your changes and submit a pull request.**
+1. **Fork the repository.**
+2. **Create a new branch.**
+3. **Make your changes and submit a pull request.**
