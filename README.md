@@ -1,3 +1,6 @@
+## Customer Clustering Project
+[![](Image.jpg)](https://unsplash.com/photos/group-of-people-standing-in-front-of-food-stall-counter-66RxrYlPShI)
+
 ### Overview
 This project applies **Unsupervised Machine Learning** techniques to a customer dataset to identify meaningful clusters. The goal is to segment customers based on their features, using some popular clustering algorithms such as **K-Means**, **DBSCAN** and **Gaussian Mixture Models (GMM)**. The clustering results are evaluated and visualized to extract actionable insights.
 
